@@ -5,31 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
-//  const fiveSeconds = const Duration(seconds: 5);
-//  Timer.periodic(oneSecond, (Timer t) => getData());
-//  Timer.periodic(Duration(seconds: 10), (timer) {
-//    //print(DateTime.now());
-//    fetchPatientCount();
-//  });
   runApp(new MaterialApp(
     home: new HomePage(),
   ));
 }
-
-//Future<String> fetchPatientCount() async {
-//  print(DateTime.now().toIso8601String());
-//  return DateTime.now().toIso8601String();
-//}
-//
-//Future<String> getData() async {
-//  http.Response response = await http.get(
-//    Uri.encodeFull(
-//        "https://www.random.org/cgi-bin/randbyte?nbytes=64&format=h"),
-//  );
-//
-//  print(response.body);
-//  return response.body;
-//}
 
 class HomePage extends StatefulWidget {
   @override
